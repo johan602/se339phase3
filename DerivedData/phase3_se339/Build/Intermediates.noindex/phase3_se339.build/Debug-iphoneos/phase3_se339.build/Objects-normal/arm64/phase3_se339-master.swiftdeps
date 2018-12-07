@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "9855af50599d182d5416e8dff899ef78"
+build_time: [1544213975, 822916000]
+inputs:
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/phase3_se339/ViewController.swift": [1544153750, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/phase3_se339/mapViewController.swift": [1544153750, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/phase3_se339/AppDelegate.swift": [1543874513, 0]
+  "/Users/coryjohannes/Documents/339_project/339_project/connection.swift": [1544212201, 0]
+  "/Users/coryjohannes/Documents/339_project/339_project/vehicleCell.swift": [1544058973, 0]
+  "/Users/coryjohannes/.Trash/vehicle.swift": [1544069483, 0]

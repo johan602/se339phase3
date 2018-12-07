@@ -1,0 +1,885 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "mapViewController"
+provides-nominal:
+- "12phase3_se33917mapViewControllerC"
+provides-member:
+- ["12phase3_se33917mapViewControllerC", ""]
+provides-dynamic-lookup:
+- "mapView"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CLLocationCoordinate2D"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MKMapView"
+- "MKMapViewDelegate"
+- "MKPointAnnotation"
+- "String"
+- "StringLiteralType"
+- !private "Timer"
+- "UIViewController"
+- !private "connection"
+- "mapViewController"
+- "vehicle"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addAnnotation"]
+- !private ["So15CALayerDelegateP", "camera"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So22CLLocationCoordinate2DV", "init"]
+- !private ["So22CLLocationCoordinate2DV", "init"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2D"]
+- !private ["s7CVarArgP", "MKPointAnnotation"]
+- !private ["s7CVarArgP", "Timer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addAnnotation"]
+- !private ["s7CVarArgP", "altitude"]
+- !private ["s7CVarArgP", "camera"]
+- !private ["s7CVarArgP", "centerCoordinate"]
+- !private ["s7CVarArgP", "connection"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "currVehicle"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loc"]
+- ["s7CVarArgP", "mapView"]
+- ["s7CVarArgP", "mapViewDidChangeVisibleRegion"]
+- ["s7CVarArgP", "mapViewDidFailLoadingMap"]
+- ["s7CVarArgP", "mapViewDidFinishLoadingMap"]
+- ["s7CVarArgP", "mapViewDidFinishRenderingMap"]
+- ["s7CVarArgP", "mapViewDidStopLocatingUser"]
+- ["s7CVarArgP", "mapViewWillStartLoadingMap"]
+- ["s7CVarArgP", "mapViewWillStartLocatingUser"]
+- ["s7CVarArgP", "mapViewWillStartRenderingMap"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "update"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s28CustomDebugStringConvertibleP", "MKPointAnnotation"]
+- !private ["s28CustomDebugStringConvertibleP", "Timer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAnnotation"]
+- !private ["s28CustomDebugStringConvertibleP", "altitude"]
+- !private ["s28CustomDebugStringConvertibleP", "camera"]
+- !private ["s28CustomDebugStringConvertibleP", "centerCoordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "connection"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "currVehicle"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lat"]
+- !private ["s28CustomDebugStringConvertibleP", "loc"]
+- !private ["s28CustomDebugStringConvertibleP", "long"]
+- ["s28CustomDebugStringConvertibleP", "mapView"]
+- ["s28CustomDebugStringConvertibleP", "mapViewDidChangeVisibleRegion"]
+- ["s28CustomDebugStringConvertibleP", "mapViewDidFailLoadingMap"]
+- ["s28CustomDebugStringConvertibleP", "mapViewDidFinishLoadingMap"]
+- ["s28CustomDebugStringConvertibleP", "mapViewDidFinishRenderingMap"]
+- ["s28CustomDebugStringConvertibleP", "mapViewDidStopLocatingUser"]
+- ["s28CustomDebugStringConvertibleP", "mapViewWillStartLoadingMap"]
+- ["s28CustomDebugStringConvertibleP", "mapViewWillStartLocatingUser"]
+- ["s28CustomDebugStringConvertibleP", "mapViewWillStartRenderingMap"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addAnnotation"]
+- !private ["s17CustomReflectableP", "camera"]
+- !private ["s17CustomReflectableP", "coordinate"]
+- !private ["s17CustomReflectableP", "delegate"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lat"]
+- !private ["s17CustomReflectableP", "long"]
+- !private ["s17CustomReflectableP", "title"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s23CustomStringConvertibleP", "MKPointAnnotation"]
+- !private ["s23CustomStringConvertibleP", "Timer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAnnotation"]
+- !private ["s23CustomStringConvertibleP", "altitude"]
+- !private ["s23CustomStringConvertibleP", "camera"]
+- !private ["s23CustomStringConvertibleP", "centerCoordinate"]
+- !private ["s23CustomStringConvertibleP", "connection"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "currVehicle"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loc"]
+- ["s23CustomStringConvertibleP", "mapView"]
+- ["s23CustomStringConvertibleP", "mapViewDidChangeVisibleRegion"]
+- ["s23CustomStringConvertibleP", "mapViewDidFailLoadingMap"]
+- ["s23CustomStringConvertibleP", "mapViewDidFinishLoadingMap"]
+- ["s23CustomStringConvertibleP", "mapViewDidFinishRenderingMap"]
+- ["s23CustomStringConvertibleP", "mapViewDidStopLocatingUser"]
+- ["s23CustomStringConvertibleP", "mapViewWillStartLoadingMap"]
+- ["s23CustomStringConvertibleP", "mapViewWillStartLocatingUser"]
+- ["s23CustomStringConvertibleP", "mapViewWillStartRenderingMap"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "update"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "addAnnotation"]
+- !private ["Se", "camera"]
+- !private ["Se", "coordinate"]
+- !private ["Se", "delegate"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "lat"]
+- !private ["Se", "long"]
+- !private ["Se", "title"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "addAnnotation"]
+- !private ["SE", "camera"]
+- !private ["SE", "coordinate"]
+- !private ["SE", "delegate"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "lat"]
+- !private ["SE", "long"]
+- !private ["SE", "title"]
+- !private ["SQ", "CLLocationCoordinate2D"]
+- !private ["SQ", "MKPointAnnotation"]
+- !private ["SQ", "Timer"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addAnnotation"]
+- !private ["SQ", "altitude"]
+- !private ["SQ", "camera"]
+- !private ["SQ", "centerCoordinate"]
+- !private ["SQ", "connection"]
+- !private ["SQ", "coordinate"]
+- !private ["SQ", "currVehicle"]
+- !private ["SQ", "delegate"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "lat"]
+- !private ["SQ", "loc"]
+- !private ["SQ", "long"]
+- ["SQ", "mapView"]
+- ["SQ", "mapViewDidChangeVisibleRegion"]
+- ["SQ", "mapViewDidFailLoadingMap"]
+- ["SQ", "mapViewDidFinishLoadingMap"]
+- ["SQ", "mapViewDidFinishRenderingMap"]
+- ["SQ", "mapViewDidStopLocatingUser"]
+- ["SQ", "mapViewWillStartLoadingMap"]
+- ["SQ", "mapViewWillStartLocatingUser"]
+- ["SQ", "mapViewWillStartRenderingMap"]
+- !private ["SQ", "scheduledTimer"]
+- !private ["SQ", "title"]
+- !private ["SQ", "update"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "addAnnotation"]
+- !private ["s23ExpressibleByNilLiteralP", "camera"]
+- !private ["s23ExpressibleByNilLiteralP", "coordinate"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "lat"]
+- !private ["s23ExpressibleByNilLiteralP", "long"]
+- !private ["s23ExpressibleByNilLiteralP", "title"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "CLLocationCoordinate2D"]
+- !private ["SH", "MKPointAnnotation"]
+- !private ["SH", "Timer"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addAnnotation"]
+- !private ["SH", "altitude"]
+- !private ["SH", "camera"]
+- !private ["SH", "centerCoordinate"]
+- !private ["SH", "connection"]
+- !private ["SH", "coordinate"]
+- !private ["SH", "currVehicle"]
+- !private ["SH", "delegate"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "lat"]
+- !private ["SH", "loc"]
+- !private ["SH", "long"]
+- ["SH", "mapView"]
+- ["SH", "mapViewDidChangeVisibleRegion"]
+- ["SH", "mapViewDidFailLoadingMap"]
+- ["SH", "mapViewDidFinishLoadingMap"]
+- ["SH", "mapViewDidFinishRenderingMap"]
+- ["SH", "mapViewDidStopLocatingUser"]
+- ["SH", "mapViewWillStartLoadingMap"]
+- ["SH", "mapViewWillStartLocatingUser"]
+- ["SH", "mapViewWillStartRenderingMap"]
+- !private ["SH", "scheduledTimer"]
+- !private ["SH", "title"]
+- !private ["SH", "update"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["So12MKAnnotationP", "coordinate"]
+- !private ["So12MKAnnotationP", "init"]
+- !private ["So12MKAnnotationP", "init"]
+- !private ["So11MKMapCameraC", "altitude"]
+- !private ["So11MKMapCameraC", "centerCoordinate"]
+- !private ["So9MKMapViewC", "addAnnotation"]
+- !private ["So9MKMapViewC", "camera"]
+- !private ["So9MKMapViewC", "delegate"]
+- !private ["So17MKMapViewDelegateP", "CLLocationCoordinate2D"]
+- !private ["So17MKMapViewDelegateP", "MKPointAnnotation"]
+- !private ["So17MKMapViewDelegateP", "Timer"]
+- ["So17MKMapViewDelegateP", ""]
+- !private ["So17MKMapViewDelegateP", "connection"]
+- !private ["So17MKMapViewDelegateP", "currVehicle"]
+- !private ["So17MKMapViewDelegateP", "loc"]
+- ["So17MKMapViewDelegateP", "mapView"]
+- ["So17MKMapViewDelegateP", "mapViewDidChangeVisibleRegion"]
+- ["So17MKMapViewDelegateP", "mapViewDidFailLoadingMap"]
+- ["So17MKMapViewDelegateP", "mapViewDidFinishLoadingMap"]
+- ["So17MKMapViewDelegateP", "mapViewDidFinishRenderingMap"]
+- ["So17MKMapViewDelegateP", "mapViewDidStopLocatingUser"]
+- ["So17MKMapViewDelegateP", "mapViewWillStartLoadingMap"]
+- ["So17MKMapViewDelegateP", "mapViewWillStartLocatingUser"]
+- ["So17MKMapViewDelegateP", "mapViewWillStartRenderingMap"]
+- !private ["So17MKMapViewDelegateP", "update"]
+- !private ["So17MKPointAnnotationC", "coordinate"]
+- !private ["So17MKPointAnnotationC", "init"]
+- !private ["So17MKPointAnnotationC", "init"]
+- !private ["So7MKShapeC", "coordinate"]
+- !private ["So7MKShapeC", "init"]
+- !private ["So7MKShapeC", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CLLocationCoordinate2D"]
+- !private ["So8NSCodingP", "MKPointAnnotation"]
+- !private ["So8NSCodingP", "Timer"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAnnotation"]
+- !private ["So8NSCodingP", "altitude"]
+- !private ["So8NSCodingP", "camera"]
+- !private ["So8NSCodingP", "centerCoordinate"]
+- !private ["So8NSCodingP", "connection"]
+- !private ["So8NSCodingP", "currVehicle"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loc"]
+- ["So8NSCodingP", "mapView"]
+- ["So8NSCodingP", "mapViewDidChangeVisibleRegion"]
+- ["So8NSCodingP", "mapViewDidFailLoadingMap"]
+- ["So8NSCodingP", "mapViewDidFinishLoadingMap"]
+- ["So8NSCodingP", "mapViewDidFinishRenderingMap"]
+- ["So8NSCodingP", "mapViewDidStopLocatingUser"]
+- ["So8NSCodingP", "mapViewWillStartLoadingMap"]
+- ["So8NSCodingP", "mapViewWillStartLocatingUser"]
+- ["So8NSCodingP", "mapViewWillStartRenderingMap"]
+- !private ["So8NSCodingP", "update"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "altitude"]
+- !private ["So9NSCopyingP", "centerCoordinate"]
+- !private ["So26NSExtensionRequestHandlingP", "CLLocationCoordinate2D"]
+- !private ["So26NSExtensionRequestHandlingP", "MKPointAnnotation"]
+- !private ["So26NSExtensionRequestHandlingP", "Timer"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "connection"]
+- !private ["So26NSExtensionRequestHandlingP", "currVehicle"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loc"]
+- ["So26NSExtensionRequestHandlingP", "mapView"]
+- ["So26NSExtensionRequestHandlingP", "mapViewDidChangeVisibleRegion"]
+- ["So26NSExtensionRequestHandlingP", "mapViewDidFailLoadingMap"]
+- ["So26NSExtensionRequestHandlingP", "mapViewDidFinishLoadingMap"]
+- ["So26NSExtensionRequestHandlingP", "mapViewDidFinishRenderingMap"]
+- ["So26NSExtensionRequestHandlingP", "mapViewDidStopLocatingUser"]
+- ["So26NSExtensionRequestHandlingP", "mapViewWillStartLoadingMap"]
+- ["So26NSExtensionRequestHandlingP", "mapViewWillStartLocatingUser"]
+- ["So26NSExtensionRequestHandlingP", "mapViewWillStartRenderingMap"]
+- !private ["So26NSExtensionRequestHandlingP", "update"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "CLLocationCoordinate2D"]
+- ["So8NSObjectC", "MKMapView"]
+- ["So8NSObjectC", "MKPointAnnotation"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Timer"]
+- !private ["So8NSObjectC", "addAnnotation"]
+- !private ["So8NSObjectC", "altitude"]
+- !private ["So8NSObjectC", "camera"]
+- !private ["So8NSObjectC", "centerCoordinate"]
+- !private ["So8NSObjectC", "connection"]
+- !private ["So8NSObjectC", "coordinate"]
+- ["So8NSObjectC", "currVehicle"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loc"]
+- ["So8NSObjectC", "mapView"]
+- ["So8NSObjectC", "mapViewDidChangeVisibleRegion"]
+- ["So8NSObjectC", "mapViewDidFailLoadingMap"]
+- ["So8NSObjectC", "mapViewDidFinishLoadingMap"]
+- ["So8NSObjectC", "mapViewDidFinishRenderingMap"]
+- ["So8NSObjectC", "mapViewDidStopLocatingUser"]
+- ["So8NSObjectC", "mapViewWillStartLoadingMap"]
+- ["So8NSObjectC", "mapViewWillStartLocatingUser"]
+- ["So8NSObjectC", "mapViewWillStartRenderingMap"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- ["So8NSObjectC", "update"]
+- ["So8NSObjectC", "url"]
+- ["So8NSObjectC", "vehicle"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectP", "MKPointAnnotation"]
+- !private ["So8NSObjectP", "Timer"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAnnotation"]
+- !private ["So8NSObjectP", "altitude"]
+- !private ["So8NSObjectP", "camera"]
+- !private ["So8NSObjectP", "centerCoordinate"]
+- !private ["So8NSObjectP", "connection"]
+- !private ["So8NSObjectP", "coordinate"]
+- !private ["So8NSObjectP", "currVehicle"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "loc"]
+- ["So8NSObjectP", "mapView"]
+- ["So8NSObjectP", "mapViewDidChangeVisibleRegion"]
+- ["So8NSObjectP", "mapViewDidFailLoadingMap"]
+- ["So8NSObjectP", "mapViewDidFinishLoadingMap"]
+- ["So8NSObjectP", "mapViewDidFinishRenderingMap"]
+- ["So8NSObjectP", "mapViewDidStopLocatingUser"]
+- ["So8NSObjectP", "mapViewWillStartLoadingMap"]
+- ["So8NSObjectP", "mapViewWillStartLocatingUser"]
+- ["So8NSObjectP", "mapViewWillStartRenderingMap"]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["So8NSObjectP", "update"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "altitude"]
+- !private ["So14NSSecureCodingP", "centerCoordinate"]
+- !private ["Sq", "addAnnotation"]
+- !private ["Sq", "camera"]
+- !private ["Sq", "coordinate"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "lat"]
+- !private ["Sq", "long"]
+- !private ["Sq", "title"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- !private ["So29UIAccessibilityIdentificationP", "addAnnotation"]
+- !private ["So29UIAccessibilityIdentificationP", "camera"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So12UIAppearanceP", "addAnnotation"]
+- !private ["So12UIAppearanceP", "camera"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "CLLocationCoordinate2D"]
+- !private ["So21UIAppearanceContainerP", "MKPointAnnotation"]
+- !private ["So21UIAppearanceContainerP", "Timer"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAnnotation"]
+- !private ["So21UIAppearanceContainerP", "camera"]
+- !private ["So21UIAppearanceContainerP", "connection"]
+- !private ["So21UIAppearanceContainerP", "currVehicle"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loc"]
+- ["So21UIAppearanceContainerP", "mapView"]
+- ["So21UIAppearanceContainerP", "mapViewDidChangeVisibleRegion"]
+- ["So21UIAppearanceContainerP", "mapViewDidFailLoadingMap"]
+- ["So21UIAppearanceContainerP", "mapViewDidFinishLoadingMap"]
+- ["So21UIAppearanceContainerP", "mapViewDidFinishRenderingMap"]
+- ["So21UIAppearanceContainerP", "mapViewDidStopLocatingUser"]
+- ["So21UIAppearanceContainerP", "mapViewWillStartLoadingMap"]
+- ["So21UIAppearanceContainerP", "mapViewWillStartLocatingUser"]
+- ["So21UIAppearanceContainerP", "mapViewWillStartRenderingMap"]
+- !private ["So21UIAppearanceContainerP", "update"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "CLLocationCoordinate2D"]
+- !private ["So18UIContentContainerP", "MKPointAnnotation"]
+- !private ["So18UIContentContainerP", "Timer"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "connection"]
+- !private ["So18UIContentContainerP", "currVehicle"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loc"]
+- ["So18UIContentContainerP", "mapView"]
+- ["So18UIContentContainerP", "mapViewDidChangeVisibleRegion"]
+- ["So18UIContentContainerP", "mapViewDidFailLoadingMap"]
+- ["So18UIContentContainerP", "mapViewDidFinishLoadingMap"]
+- ["So18UIContentContainerP", "mapViewDidFinishRenderingMap"]
+- ["So18UIContentContainerP", "mapViewDidStopLocatingUser"]
+- ["So18UIContentContainerP", "mapViewWillStartLoadingMap"]
+- ["So18UIContentContainerP", "mapViewWillStartLocatingUser"]
+- ["So18UIContentContainerP", "mapViewWillStartRenderingMap"]
+- !private ["So18UIContentContainerP", "update"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "addAnnotation"]
+- !private ["So17UICoordinateSpaceP", "camera"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So13UIDynamicItemP", "addAnnotation"]
+- !private ["So13UIDynamicItemP", "camera"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "CLLocationCoordinate2D"]
+- !private ["So18UIFocusEnvironmentP", "MKPointAnnotation"]
+- !private ["So18UIFocusEnvironmentP", "Timer"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAnnotation"]
+- !private ["So18UIFocusEnvironmentP", "camera"]
+- !private ["So18UIFocusEnvironmentP", "connection"]
+- !private ["So18UIFocusEnvironmentP", "currVehicle"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loc"]
+- ["So18UIFocusEnvironmentP", "mapView"]
+- ["So18UIFocusEnvironmentP", "mapViewDidChangeVisibleRegion"]
+- ["So18UIFocusEnvironmentP", "mapViewDidFailLoadingMap"]
+- ["So18UIFocusEnvironmentP", "mapViewDidFinishLoadingMap"]
+- ["So18UIFocusEnvironmentP", "mapViewDidFinishRenderingMap"]
+- ["So18UIFocusEnvironmentP", "mapViewDidStopLocatingUser"]
+- ["So18UIFocusEnvironmentP", "mapViewWillStartLoadingMap"]
+- ["So18UIFocusEnvironmentP", "mapViewWillStartLocatingUser"]
+- ["So18UIFocusEnvironmentP", "mapViewWillStartRenderingMap"]
+- !private ["So18UIFocusEnvironmentP", "update"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addAnnotation"]
+- !private ["So11UIFocusItemP", "camera"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "addAnnotation"]
+- !private ["So20UIFocusItemContainerP", "camera"]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "CLLocationCoordinate2D"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKPointAnnotation"]
+- !private ["So30UIPasteConfigurationSupportingP", "Timer"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addAnnotation"]
+- !private ["So30UIPasteConfigurationSupportingP", "camera"]
+- !private ["So30UIPasteConfigurationSupportingP", "connection"]
+- !private ["So30UIPasteConfigurationSupportingP", "currVehicle"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loc"]
+- ["So30UIPasteConfigurationSupportingP", "mapView"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewDidChangeVisibleRegion"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewDidFailLoadingMap"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewDidFinishLoadingMap"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewDidFinishRenderingMap"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewDidStopLocatingUser"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewWillStartLoadingMap"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewWillStartLocatingUser"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewWillStartRenderingMap"]
+- !private ["So30UIPasteConfigurationSupportingP", "update"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "CLLocationCoordinate2D"]
+- ["So11UIResponderC", "MKMapView"]
+- ["So11UIResponderC", "MKPointAnnotation"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "Timer"]
+- !private ["So11UIResponderC", "addAnnotation"]
+- !private ["So11UIResponderC", "camera"]
+- !private ["So11UIResponderC", "connection"]
+- ["So11UIResponderC", "currVehicle"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loc"]
+- ["So11UIResponderC", "mapView"]
+- ["So11UIResponderC", "mapViewDidChangeVisibleRegion"]
+- ["So11UIResponderC", "mapViewDidFailLoadingMap"]
+- ["So11UIResponderC", "mapViewDidFinishLoadingMap"]
+- ["So11UIResponderC", "mapViewDidFinishRenderingMap"]
+- ["So11UIResponderC", "mapViewDidStopLocatingUser"]
+- ["So11UIResponderC", "mapViewWillStartLoadingMap"]
+- ["So11UIResponderC", "mapViewWillStartLocatingUser"]
+- ["So11UIResponderC", "mapViewWillStartRenderingMap"]
+- ["So11UIResponderC", "update"]
+- ["So11UIResponderC", "url"]
+- ["So11UIResponderC", "vehicle"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CLLocationCoordinate2D"]
+- !private ["So30UIResponderStandardEditActionsP", "MKPointAnnotation"]
+- !private ["So30UIResponderStandardEditActionsP", "Timer"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addAnnotation"]
+- !private ["So30UIResponderStandardEditActionsP", "camera"]
+- !private ["So30UIResponderStandardEditActionsP", "connection"]
+- !private ["So30UIResponderStandardEditActionsP", "currVehicle"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loc"]
+- ["So30UIResponderStandardEditActionsP", "mapView"]
+- ["So30UIResponderStandardEditActionsP", "mapViewDidChangeVisibleRegion"]
+- ["So30UIResponderStandardEditActionsP", "mapViewDidFailLoadingMap"]
+- ["So30UIResponderStandardEditActionsP", "mapViewDidFinishLoadingMap"]
+- ["So30UIResponderStandardEditActionsP", "mapViewDidFinishRenderingMap"]
+- ["So30UIResponderStandardEditActionsP", "mapViewDidStopLocatingUser"]
+- ["So30UIResponderStandardEditActionsP", "mapViewWillStartLoadingMap"]
+- ["So30UIResponderStandardEditActionsP", "mapViewWillStartLocatingUser"]
+- ["So30UIResponderStandardEditActionsP", "mapViewWillStartRenderingMap"]
+- !private ["So30UIResponderStandardEditActionsP", "update"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "CLLocationCoordinate2D"]
+- !private ["So16UIStateRestoringP", "MKPointAnnotation"]
+- !private ["So16UIStateRestoringP", "Timer"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "connection"]
+- !private ["So16UIStateRestoringP", "currVehicle"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loc"]
+- ["So16UIStateRestoringP", "mapView"]
+- ["So16UIStateRestoringP", "mapViewDidChangeVisibleRegion"]
+- ["So16UIStateRestoringP", "mapViewDidFailLoadingMap"]
+- ["So16UIStateRestoringP", "mapViewDidFinishLoadingMap"]
+- ["So16UIStateRestoringP", "mapViewDidFinishRenderingMap"]
+- ["So16UIStateRestoringP", "mapViewDidStopLocatingUser"]
+- ["So16UIStateRestoringP", "mapViewWillStartLoadingMap"]
+- ["So16UIStateRestoringP", "mapViewWillStartLocatingUser"]
+- ["So16UIStateRestoringP", "mapViewWillStartRenderingMap"]
+- !private ["So16UIStateRestoringP", "update"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "CLLocationCoordinate2D"]
+- !private ["So18UITraitEnvironmentP", "MKPointAnnotation"]
+- !private ["So18UITraitEnvironmentP", "Timer"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAnnotation"]
+- !private ["So18UITraitEnvironmentP", "camera"]
+- !private ["So18UITraitEnvironmentP", "connection"]
+- !private ["So18UITraitEnvironmentP", "currVehicle"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loc"]
+- ["So18UITraitEnvironmentP", "mapView"]
+- ["So18UITraitEnvironmentP", "mapViewDidChangeVisibleRegion"]
+- ["So18UITraitEnvironmentP", "mapViewDidFailLoadingMap"]
+- ["So18UITraitEnvironmentP", "mapViewDidFinishLoadingMap"]
+- ["So18UITraitEnvironmentP", "mapViewDidFinishRenderingMap"]
+- ["So18UITraitEnvironmentP", "mapViewDidStopLocatingUser"]
+- ["So18UITraitEnvironmentP", "mapViewWillStartLoadingMap"]
+- ["So18UITraitEnvironmentP", "mapViewWillStartLocatingUser"]
+- ["So18UITraitEnvironmentP", "mapViewWillStartRenderingMap"]
+- !private ["So18UITraitEnvironmentP", "update"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "CLLocationCoordinate2D"]
+- !private ["So23UIUserActivityRestoringP", "MKPointAnnotation"]
+- !private ["So23UIUserActivityRestoringP", "Timer"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addAnnotation"]
+- !private ["So23UIUserActivityRestoringP", "camera"]
+- !private ["So23UIUserActivityRestoringP", "connection"]
+- !private ["So23UIUserActivityRestoringP", "currVehicle"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "loc"]
+- ["So23UIUserActivityRestoringP", "mapView"]
+- ["So23UIUserActivityRestoringP", "mapViewDidChangeVisibleRegion"]
+- ["So23UIUserActivityRestoringP", "mapViewDidFailLoadingMap"]
+- ["So23UIUserActivityRestoringP", "mapViewDidFinishLoadingMap"]
+- ["So23UIUserActivityRestoringP", "mapViewDidFinishRenderingMap"]
+- ["So23UIUserActivityRestoringP", "mapViewDidStopLocatingUser"]
+- ["So23UIUserActivityRestoringP", "mapViewWillStartLoadingMap"]
+- ["So23UIUserActivityRestoringP", "mapViewWillStartLocatingUser"]
+- ["So23UIUserActivityRestoringP", "mapViewWillStartRenderingMap"]
+- !private ["So23UIUserActivityRestoringP", "update"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "addAnnotation"]
+- !private ["So6UIViewC", "camera"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So16UIViewControllerC", "CLLocationCoordinate2D"]
+- ["So16UIViewControllerC", "MKMapView"]
+- ["So16UIViewControllerC", "MKPointAnnotation"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "Timer"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "connection"]
+- ["So16UIViewControllerC", "currVehicle"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loc"]
+- ["So16UIViewControllerC", "mapView"]
+- ["So16UIViewControllerC", "mapViewDidChangeVisibleRegion"]
+- ["So16UIViewControllerC", "mapViewDidFailLoadingMap"]
+- ["So16UIViewControllerC", "mapViewDidFinishLoadingMap"]
+- ["So16UIViewControllerC", "mapViewDidFinishRenderingMap"]
+- ["So16UIViewControllerC", "mapViewDidStopLocatingUser"]
+- ["So16UIViewControllerC", "mapViewWillStartLoadingMap"]
+- ["So16UIViewControllerC", "mapViewWillStartLocatingUser"]
+- ["So16UIViewControllerC", "mapViewWillStartRenderingMap"]
+- ["So16UIViewControllerC", "update"]
+- ["So16UIViewControllerC", "url"]
+- ["So16UIViewControllerC", "vehicle"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addAnnotation"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "camera"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKPointAnnotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Timer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAnnotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "altitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "camera"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerCoordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currVehicle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loc"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewDidChangeVisibleRegion"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewDidFailLoadingMap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewDidFinishLoadingMap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewDidFinishRenderingMap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewDidStopLocatingUser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewWillStartLoadingMap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewWillStartLocatingUser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewWillStartRenderingMap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "update"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addAnnotation"]
+- !private ["s21_ObjectiveCBridgeableP", "camera"]
+- !private ["s21_ObjectiveCBridgeableP", "coordinate"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lat"]
+- !private ["s21_ObjectiveCBridgeableP", "long"]
+- !private ["s21_ObjectiveCBridgeableP", "title"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["12phase3_se33910connectionC", "getVehicleData"]
+- !private ["12phase3_se33910connectionC", "init"]
+- !private ["12phase3_se33910connectionC", "init"]
+- !private ["12phase3_se33917mapViewControllerC", "CLLocationCoordinate2D"]
+- ["12phase3_se33917mapViewControllerC", "MKMapView"]
+- ["12phase3_se33917mapViewControllerC", "MKPointAnnotation"]
+- ["12phase3_se33917mapViewControllerC", "String"]
+- !private ["12phase3_se33917mapViewControllerC", "Timer"]
+- !private ["12phase3_se33917mapViewControllerC", "connection"]
+- ["12phase3_se33917mapViewControllerC", "currVehicle"]
+- ["12phase3_se33917mapViewControllerC", "deinit"]
+- ["12phase3_se33917mapViewControllerC", "init"]
+- ["12phase3_se33917mapViewControllerC", "loc"]
+- ["12phase3_se33917mapViewControllerC", "mapView"]
+- ["12phase3_se33917mapViewControllerC", "mapViewDidChangeVisibleRegion"]
+- ["12phase3_se33917mapViewControllerC", "mapViewDidFailLoadingMap"]
+- ["12phase3_se33917mapViewControllerC", "mapViewDidFinishLoadingMap"]
+- ["12phase3_se33917mapViewControllerC", "mapViewDidFinishRenderingMap"]
+- ["12phase3_se33917mapViewControllerC", "mapViewDidStopLocatingUser"]
+- ["12phase3_se33917mapViewControllerC", "mapViewWillStartLoadingMap"]
+- ["12phase3_se33917mapViewControllerC", "mapViewWillStartLocatingUser"]
+- ["12phase3_se33917mapViewControllerC", "mapViewWillStartRenderingMap"]
+- ["12phase3_se33917mapViewControllerC", "update"]
+- ["12phase3_se33917mapViewControllerC", "url"]
+- ["12phase3_se33917mapViewControllerC", "vehicle"]
+- ["12phase3_se33917mapViewControllerC", "viewDidLoad"]
+- !private ["12phase3_se3397vehicleC", "lat"]
+- !private ["12phase3_se3397vehicleC", "long"]
+- !private ["12phase3_se3397vehicleC", "title"]
+depends-nominal:
+- "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "So22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- !private "So12MKAnnotationP"
+- !private "So11MKMapCameraC"
+- !private "So9MKMapViewC"
+- "So17MKMapViewDelegateP"
+- !private "So17MKPointAnnotationC"
+- !private "So7MKShapeC"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- "Sm"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So7NSTimerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "9Alamofire14URLConvertibleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+- !private "12phase3_se33910connectionC"
+- "12phase3_se33917mapViewControllerC"
+- !private "12phase3_se3397vehicleC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/DerivedData/phase3_se339/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/DerivedData/phase3_se339/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/DerivedData/phase3_se339/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/DerivedData/phase3_se339/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "de4329ff5e4f4aad8c3f43fcd05b3a70"

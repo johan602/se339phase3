@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "43f87da3dd1e5d5b5c9d2a034e05d29f"
+build_time: [1544213032, 784233000]
+inputs:
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/AFError.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/Alamofire.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/MultipartFormData.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/Notifications.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/ParameterEncoding.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/Request.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/Response.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/ResponseSerialization.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/Result.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/SessionDelegate.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/SessionManager.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/TaskDelegate.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/Timeline.swift": [1544059476, 0]
+  "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/Alamofire/Source/Validation.swift": [1544059476, 0]

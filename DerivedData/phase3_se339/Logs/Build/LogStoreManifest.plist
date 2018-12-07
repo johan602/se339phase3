@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>66E78A34-D298-4442-BF6B-EA6F4304D165</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>66E78A34-D298-4442-BF6B-EA6F4304D165.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>phase3_se339 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>phase3_se339</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build phase3_se339</string>
+			<key>timeStartedRecording</key>
+			<real>565906799.46788394</real>
+			<key>timeStoppedRecording</key>
+			<real>565906816.39264405</real>
+			<key>title</key>
+			<string>Build phase3_se339</string>
+			<key>uniqueIdentifier</key>
+			<string>66E78A34-D298-4442-BF6B-EA6F4304D165</string>
+		</dict>
+		<key>B863056F-557D-4AA0-BC68-E016A6B73D97</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B863056F-557D-4AA0-BC68-E016A6B73D97.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>phase3_se339 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>phase3_se339</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build phase3_se339</string>
+			<key>timeStartedRecording</key>
+			<real>565906929.81241298</real>
+			<key>timeStoppedRecording</key>
+			<real>565906930.87521994</real>
+			<key>title</key>
+			<string>Build phase3_se339</string>
+			<key>uniqueIdentifier</key>
+			<string>B863056F-557D-4AA0-BC68-E016A6B73D97</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

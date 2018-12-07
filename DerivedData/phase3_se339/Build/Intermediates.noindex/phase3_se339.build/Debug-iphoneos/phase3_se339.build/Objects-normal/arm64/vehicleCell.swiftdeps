@@ -1,0 +1,586 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "vehicleCell"
+provides-nominal:
+- "12phase3_se33911vehicleCellC"
+provides-member:
+- ["12phase3_se33911vehicleCellC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "fuelLabel"
+- "rpmLabel"
+- "spdLabel"
+- "vehicleName"
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "NSCoder"
+- "String"
+- !private "StringLiteralType"
+- "UILabel"
+- "UITableViewCell"
+- "vehicleCell"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["So15CALayerDelegateP", "CellStyle"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addFuel"]
+- !private ["So15CALayerDelegateP", "addSpeed"]
+- !private ["So15CALayerDelegateP", "addrpm"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "fuelLabel"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "rpmLabel"]
+- !private ["So15CALayerDelegateP", "spdLabel"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "vehicleName"]
+- ["s7CVarArgP", "CellStyle"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addFuel"]
+- !private ["s7CVarArgP", "addSpeed"]
+- !private ["s7CVarArgP", "addrpm"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "fuelLabel"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "rpmLabel"]
+- !private ["s7CVarArgP", "spdLabel"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "vehicleName"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "CellStyle"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addFuel"]
+- !private ["s28CustomDebugStringConvertibleP", "addSpeed"]
+- !private ["s28CustomDebugStringConvertibleP", "addrpm"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "fuelLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "rpmLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "spdLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "vehicleName"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", "CellStyle"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addFuel"]
+- !private ["s23CustomStringConvertibleP", "addSpeed"]
+- !private ["s23CustomStringConvertibleP", "addrpm"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "fuelLabel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "rpmLabel"]
+- !private ["s23CustomStringConvertibleP", "spdLabel"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "vehicleName"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "text"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "text"]
+- ["SQ", "CellStyle"]
+- ["SQ", ""]
+- !private ["SQ", "addFuel"]
+- !private ["SQ", "addSpeed"]
+- !private ["SQ", "addrpm"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "fuelLabel"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "rpmLabel"]
+- !private ["SQ", "spdLabel"]
+- !private ["SQ", "text"]
+- !private ["SQ", "vehicleName"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "CellStyle"]
+- ["SH", ""]
+- !private ["SH", "addFuel"]
+- !private ["SH", "addSpeed"]
+- !private ["SH", "addrpm"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "fuelLabel"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "rpmLabel"]
+- !private ["SH", "spdLabel"]
+- !private ["SH", "text"]
+- !private ["SH", "vehicleName"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "CellStyle"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addFuel"]
+- !private ["So8NSCodingP", "addSpeed"]
+- !private ["So8NSCodingP", "addrpm"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "fuelLabel"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "rpmLabel"]
+- !private ["So8NSCodingP", "spdLabel"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "vehicleName"]
+- ["So8NSObjectC", "CellStyle"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITableViewCell"]
+- ["So8NSObjectC", "addFuel"]
+- ["So8NSObjectC", "addName"]
+- ["So8NSObjectC", "addSpeed"]
+- ["So8NSObjectC", "addrpm"]
+- ["So8NSObjectC", "awakeFromNib"]
+- ["So8NSObjectC", "fillData"]
+- ["So8NSObjectC", "fuelLabel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "rpmLabel"]
+- ["So8NSObjectC", "spdLabel"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "vehicleName"]
+- ["So8NSObjectP", "CellStyle"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addFuel"]
+- !private ["So8NSObjectP", "addSpeed"]
+- !private ["So8NSObjectP", "addrpm"]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "fuelLabel"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "rpmLabel"]
+- !private ["So8NSObjectP", "spdLabel"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "vehicleName"]
+- !private ["Sq", "text"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So29UIAccessibilityIdentificationP", "CellStyle"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addFuel"]
+- !private ["So29UIAccessibilityIdentificationP", "addSpeed"]
+- !private ["So29UIAccessibilityIdentificationP", "addrpm"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "fuelLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "rpmLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "spdLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "vehicleName"]
+- ["So12UIAppearanceP", "CellStyle"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addFuel"]
+- !private ["So12UIAppearanceP", "addSpeed"]
+- !private ["So12UIAppearanceP", "addrpm"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "fuelLabel"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "rpmLabel"]
+- !private ["So12UIAppearanceP", "spdLabel"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "vehicleName"]
+- ["So21UIAppearanceContainerP", "CellStyle"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addFuel"]
+- !private ["So21UIAppearanceContainerP", "addSpeed"]
+- !private ["So21UIAppearanceContainerP", "addrpm"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "fuelLabel"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "rpmLabel"]
+- !private ["So21UIAppearanceContainerP", "spdLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "vehicleName"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So17UICoordinateSpaceP", "CellStyle"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addFuel"]
+- !private ["So17UICoordinateSpaceP", "addSpeed"]
+- !private ["So17UICoordinateSpaceP", "addrpm"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "fuelLabel"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "rpmLabel"]
+- !private ["So17UICoordinateSpaceP", "spdLabel"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "vehicleName"]
+- ["So13UIDynamicItemP", "CellStyle"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addFuel"]
+- !private ["So13UIDynamicItemP", "addSpeed"]
+- !private ["So13UIDynamicItemP", "addrpm"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "fuelLabel"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "rpmLabel"]
+- !private ["So13UIDynamicItemP", "spdLabel"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "vehicleName"]
+- ["So18UIFocusEnvironmentP", "CellStyle"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addFuel"]
+- !private ["So18UIFocusEnvironmentP", "addSpeed"]
+- !private ["So18UIFocusEnvironmentP", "addrpm"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "fuelLabel"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "rpmLabel"]
+- !private ["So18UIFocusEnvironmentP", "spdLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "vehicleName"]
+- ["So11UIFocusItemP", "CellStyle"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addFuel"]
+- !private ["So11UIFocusItemP", "addSpeed"]
+- !private ["So11UIFocusItemP", "addrpm"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "fuelLabel"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "rpmLabel"]
+- !private ["So11UIFocusItemP", "spdLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "vehicleName"]
+- ["So20UIFocusItemContainerP", "CellStyle"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addFuel"]
+- !private ["So20UIFocusItemContainerP", "addSpeed"]
+- !private ["So20UIFocusItemContainerP", "addrpm"]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "fuelLabel"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "rpmLabel"]
+- !private ["So20UIFocusItemContainerP", "spdLabel"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "vehicleName"]
+- ["So27UIGestureRecognizerDelegateP", "CellStyle"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "addFuel"]
+- !private ["So27UIGestureRecognizerDelegateP", "addSpeed"]
+- !private ["So27UIGestureRecognizerDelegateP", "addrpm"]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "fuelLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "rpmLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "spdLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "vehicleName"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", "CellStyle"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addFuel"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSpeed"]
+- !private ["So30UIPasteConfigurationSupportingP", "addrpm"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "fuelLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "rpmLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "spdLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "vehicleName"]
+- ["So11UIResponderC", "CellStyle"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITableViewCell"]
+- ["So11UIResponderC", "addFuel"]
+- ["So11UIResponderC", "addName"]
+- ["So11UIResponderC", "addSpeed"]
+- ["So11UIResponderC", "addrpm"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "fillData"]
+- ["So11UIResponderC", "fuelLabel"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "rpmLabel"]
+- ["So11UIResponderC", "spdLabel"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "vehicleName"]
+- ["So30UIResponderStandardEditActionsP", "CellStyle"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addFuel"]
+- !private ["So30UIResponderStandardEditActionsP", "addSpeed"]
+- !private ["So30UIResponderStandardEditActionsP", "addrpm"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "fuelLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "rpmLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "spdLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "vehicleName"]
+- ["So15UITableViewCellC", "CellStyle"]
+- ["So15UITableViewCellC", "NSCoder"]
+- ["So15UITableViewCellC", "String"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", "UITableViewCell"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "addFuel"]
+- ["So15UITableViewCellC", "addName"]
+- ["So15UITableViewCellC", "addSpeed"]
+- ["So15UITableViewCellC", "addrpm"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "fillData"]
+- ["So15UITableViewCellC", "fuelLabel"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "rpmLabel"]
+- ["So15UITableViewCellC", "spdLabel"]
+- ["So15UITableViewCellC", "vehicleName"]
+- ["So18UITraitEnvironmentP", "CellStyle"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addFuel"]
+- !private ["So18UITraitEnvironmentP", "addSpeed"]
+- !private ["So18UITraitEnvironmentP", "addrpm"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "fuelLabel"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "rpmLabel"]
+- !private ["So18UITraitEnvironmentP", "spdLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "vehicleName"]
+- ["So23UIUserActivityRestoringP", "CellStyle"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addFuel"]
+- !private ["So23UIUserActivityRestoringP", "addSpeed"]
+- !private ["So23UIUserActivityRestoringP", "addrpm"]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "fuelLabel"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "rpmLabel"]
+- !private ["So23UIUserActivityRestoringP", "spdLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "vehicleName"]
+- ["So6UIViewC", "CellStyle"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "UITableViewCell"]
+- ["So6UIViewC", "addFuel"]
+- ["So6UIViewC", "addName"]
+- ["So6UIViewC", "addSpeed"]
+- ["So6UIViewC", "addrpm"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "fillData"]
+- ["So6UIViewC", "fuelLabel"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "rpmLabel"]
+- ["So6UIViewC", "spdLabel"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "vehicleName"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "CellStyle"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addFuel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSpeed"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addrpm"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fuelLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rpmLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "spdLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "vehicleName"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CellStyle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addFuel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSpeed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addrpm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fuelLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rpmLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "spdLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vehicleName"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["12phase3_se33911vehicleCellC", "NSCoder"]
+- ["12phase3_se33911vehicleCellC", "String"]
+- ["12phase3_se33911vehicleCellC", "UILabel"]
+- ["12phase3_se33911vehicleCellC", "UITableViewCell"]
+- ["12phase3_se33911vehicleCellC", "addFuel"]
+- ["12phase3_se33911vehicleCellC", "addName"]
+- ["12phase3_se33911vehicleCellC", "addSpeed"]
+- ["12phase3_se33911vehicleCellC", "addrpm"]
+- ["12phase3_se33911vehicleCellC", "awakeFromNib"]
+- ["12phase3_se33911vehicleCellC", "fillData"]
+- ["12phase3_se33911vehicleCellC", "fuelLabel"]
+- ["12phase3_se33911vehicleCellC", "init"]
+- ["12phase3_se33911vehicleCellC", "rpmLabel"]
+- ["12phase3_se33911vehicleCellC", "spdLabel"]
+- ["12phase3_se33911vehicleCellC", "vehicleName"]
+depends-nominal:
+- !private "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- "12phase3_se33911vehicleCellC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/DerivedData/phase3_se339/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/DerivedData/phase3_se339/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/DerivedData/phase3_se339/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/DerivedData/phase3_se339/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/coryjohannes/Documents/projphase3/se339phase3/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7263c304a199c3ddc60df1251dfcfd5f"
